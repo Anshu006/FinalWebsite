@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<title>Travel Page</title>
+</head>
+<body>                  
+<nav class="navbar background">
+	<ul class="nav-list">
+		<div class="logo"><a href="index.html"><img src="https://cdn3.vectorstock.com/i/thumb-large/90/87/globe-travel-logo-vector-29969087.jpg" alt="logo"></a>
+		</div>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="packages.html">Packages</a></li>
+		<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<div class="Contacts background">
+<div class="contactus">
+	<h1>Contact us</h1>
+	<form name="custom_form" onsubmit="return validForm()">
+		<div class="form_box">
+			<div class="input-row">
+				<input type="text" placeholder="Name*" name="name">
+				<span class="error">Please enter your name</span>
+			</div>
+			<div class="input-row">
+				<input type="text" placeholder="Email*" name="email">
+				<span class="error">Please enter your email</span>
+			</div>
+			<div class="input-row">
+				<textarea placeholder="Message*" name="message"></textarea>
+				<span class="error">Please enter your Message</span>
+			</div>
+			<div class="input-row">
+				<label class="check_label" for="conditions">Accept all terms and conditions</label>
+				<input type="checkbox" name="conditions" id="conditions">
+				<span class="error">Please accept all terms and conditions</span>
+			</div>
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+</div>
+</div>
+
+
+
+<footer class="footer">
+  <div class="inner-footer">
+    <h3>Travel</h3>
+    <p>Travel is  fatal to prejudice, bigotry, and narrow mindedness, and many of our people need it sorely on these accounts</p>
+    <div class="social-links">
+      <ul>
+        <li class="social-items"><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+        <li class="social-items"><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-items"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+        <li class="social-items"><a href="https://www.tumblr.com"><i class="fab fa-tumblr"></i></a></li>
+      </ul>
+    </div>
+  <div class="quick-links">
+    <ul>
+      <li class="quick-items"><a href="index.html">Home</a></li>
+    <li class="quick-items"><a href="about.html">About</a></li>
+    <li class="quick-items"><a href="gallery.html">Gallery</a></li>
+    <li class="quick-items"><a href="packages.html">Packages</a></li>
+    <li class="quick-items"><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="outer-footer">
+  Copyright &copy; Anshu Bakhati. All Rights Reserved
+</div>
+
+
+</footer>
+<script src="custom.js"></script>
+</body>
+</html>
